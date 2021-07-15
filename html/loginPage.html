@@ -2,10 +2,58 @@
 <html>
 <head>
 <title>Login Page</title>
+<style>
+	body{
+		background-color:#C2E0EE;
+}
+	h1{
+		text-align:center;
+		font-size:50px;
+		color:steelblue;
+}
+	form{
+		margin: 20px auto;
+		width: 400px;
+		color: steelblue;
+}
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+input[type="email"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+input[type="password"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+}
+input[type="submit"]{
+	display: block;
+	width: 100%;
+	border: 2px solid steelblue;
+	margin-bottom: none;
+	height:45px;
+	border: none;
+	background: steelblue;
+	color:white;
+}
+</style>
 </head>
 <body>
-<h1 > Welcome back,</h1>
-<h1> Sign in here</h1>
+<h1>Welcome back!</h1>
+<h1> Kindly login</h1>
+<form>
+	<input type="email" placeholder="Email">
+	<input type="password" placeholder="Password">
+
+	<input type="submit" text="Submit">
+
+</form>
 
 </body>
 </html>
